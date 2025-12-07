@@ -1,0 +1,2 @@
+SELECT "out_file_id" as "file_id", "out_file_guid" as "file_guid", "out_file_version" as "version"
+  FROM file_set( [ACCOUNT_ID], '[FILE_GUID]', E'[LOCAL]', E'[NAME]', E'[PATH]', [BYTES], '[MIME]', E'[EXPIRES_AT]', E'[ACCESS]', E'[HASH]' );

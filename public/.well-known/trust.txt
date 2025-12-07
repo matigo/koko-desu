@@ -1,0 +1,25 @@
+# Koko | trust.txt file
+#
+# For more information on trust.txt see:
+# 1. https://journallist.net - Home of the trust.txt specification
+# 2. https://datatracker.ietf.org/doc/html/rfc8615 - IETF RFC 8615 - Well-Known Uniform Resource Identifiers (URIs)
+# 3. https://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml - IANA's list of registered Well-Known URIs
+#
+# Koko | belongs to the following organizations
+#
+belongto=https://10centuries.org
+belongto=https://matigo.ca
+#
+# Koko | social networks
+#
+social=https://x.com/copenbee
+#
+# Koko | vendors
+#
+
+#
+# Koko | contact info
+#
+contact=https://koko.me/contact
+#
+# Koko Copyright © 2025

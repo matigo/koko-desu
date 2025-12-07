@@ -1,0 +1,9 @@
+Hello [FIRST_NAME],
+
+Not sure what your password for [APP_NAME] is? No problem!
+
+You can sign in directly to your account by following this link: [HOMEURL]/validatetoken?token=[AUTH_TOKEN]
+
+-----
+
+Note: You are receiving this message because you, or someone claiming to be you, requested the above link on the [APP_NAME] website. If you didn't request this link, feel free to disregard the above message. Your account will remain secure.

@@ -1,0 +1,10 @@
+        <item>
+            <title>[TITLE]</title>
+            <link>[URL]</link>
+            <pubDate>[PUBLISH_DTS]</pubDate>
+            <dc:creator>[AUTHOR]</dc:creator>
+            <guid isPermaLink="false">[UUID]</guid>
+            <description>[SUMMARY]</description>
+            <content:encoded><![CDATA[[CONTENT]]]></content:encoded>
+            <atom:updated>[UPDATED_DTS]</atom:updated>
+        </item>

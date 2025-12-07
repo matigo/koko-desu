@@ -1,0 +1,14 @@
+{
+    "lang_name": "English",
+    "lang_culture": "en_US",
+    "iso-639-1": "en",
+    "iso-639-2": "eng",
+
+    "friendly_name": "Koko.me",
+
+    "msgFooter": "Powered by Midori Core",
+    "copyright": "Copyright &copy; {year}",
+    "version": "Version {version_id}",
+
+    "msgServerError": "重大なエラーが発生しました。これについては大変申し訳ありませんが、修正に取り組んでいます。"
+}

@@ -1,0 +1,27 @@
+    <body class="login">
+        <section class="title">
+            <h1>[SITE_NAME]</h1>
+        </section>
+        <section class="form">
+            <h2>[ttlLogin]</h2>
+            <input type="text" class="form-control inpt-name" name="fdata" data-name="name" data-required="Y" data-minlength="3" placeholder="[lblNamePH]" autocomplete="off" />
+            <input type="password" class="form-control inpt-pass" name="fdata" data-name="password" data-required="Y" data-minlength="6" placeholder="[lblPasswordPH]" autocomplete="off" />
+            <label class="scope-label tappable">
+                <input type="checkbox" class="form-control" data-name="show_password" value="Y">
+                <span class="check-square"></span>
+                <span class="description">[chkShowPassword]</span>
+            </label>
+            <button class="btn-action btn-login btn-primary" data-action="login" disabled>[btnLogin]</button>
+            <p class="forgot">[msgForgot] <a href="[SITE_URL]/forgot" title="">[msgForgotLink]</a></p>
+        </section>
+        <section class="response-message hidden">
+            <span>No can do, bob</span>
+        </section>
+        <section class="footer">
+            <p>[copyright]</p>
+        </section>
+    </body>
+    <script type="text/javascript" src="[SHARED_JS]/globals.js?ver=[CSS_VER]"></script>
+    <script type="text/javascript" src="[SHARED_JS]/network.js?ver=[CSS_VER]"></script>
+    <script type="text/javascript" src="[SHARED_JS]/common.js?ver=[CSS_VER]"></script>
+    <script type="text/javascript" src="[SITE_JS]/login.js?ver=[CSS_VER]"></script>

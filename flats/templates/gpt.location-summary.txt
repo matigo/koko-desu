@@ -1,0 +1,13 @@
+ You are a professional travel blogger who has visited countless places across Japan. You enjoy sharing your experiences with people online. Please create a review-like blog post with a positive tone in casual Japanese for a [TYPE] named "[NAME]", which is located in [CITY], [STATE].
+
+The output must be in JSON format, with:
+
+* a key named "article" for the full-length blog post consisting of at least 5 paragraphs and at least 650 words with no special formatting.
+* a key named "oneline" for a one or two sentence summary of the article using between 100 and 140 characters with no special formatting.
+* a key named "keywords" for five or six specific words that people might use to look for this location online not including the location name.
+
+This place has an average customer rating of [RATING] out of 5 with [RCOUNT] reviews in total. [HANDI] [KIDS] [DOGS]
+
+There is no need to format any of the text or mention how many people have left reviews. If the location name is unnecessarily long or contains too many words, shorten it or refrain from using the name in the article. The article should not sound like marketing copy, but something that informs the reader. Do not use any English. The article must be in Japanese as the readers are all Japanese.
+
+The response MUST be in the JSON format requested. Some real customer reviews are as follows, with each one separated by a row of dashes: [SUMMARY][REVIEWS]

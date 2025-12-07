@@ -1,0 +1,39 @@
+        <section class="location">
+            <h1>[title_today]</h1>
+
+            <div class="timer">&nbsp;</div>
+            <div class="photowrap">
+                <i class="fas fa-spin fa-spinner"></i>
+                <p>[msgDataRead]</p>
+            </div>
+            <div class="hints onload hidden">
+                <button class="btn-action btn-primary" data-action="hint">[btnHint]</button>
+                <span>[lblHint]</span>
+                <p class="hint-remain" data-count="3">&nbsp;</p>
+            </div>
+            <div id="map" class="map onload hidden"></div>
+            <div class="map-detail">
+                <span class="latlong" data-name="summary">&nbsp;</span>
+                <input type="hidden" name="fdata" class="latlong" data-name="longitude" data-required="Y" readonly />
+                <input type="hidden" name="fdata" class="latlong" data-name="latitude" data-required="Y" readonly />
+                <input type="hidden" name="fdata" data-name="location_key" data-required="Y" readonly />
+            </div>
+            <div class="validate onload hidden">
+                <p>[lblSubmit]</p>
+                <button class="btn-action btn-submit btn-primary" data-action="submit" disabled>[btnSubmit]</button>
+            </div>
+            <div class="result hidden">
+                <p>This is where the result goes.</p>
+            </div>
+        </section>
+        <script type="text/javascript" src="[SHARED_JS]/globals.js?ver=[CSS_VER]"></script>
+        <script type="text/javascript" src="[SHARED_JS]/network.js?ver=[CSS_VER]"></script>
+        <script type="text/javascript" src="[SHARED_JS]/common.js?ver=[CSS_VER]"></script>
+        <script type="text/javascript" src="[SITE_JS]/dokogame.js?ver=[CSS_VER]"></script>
+        <script async src="https://maps.googleapis.com/maps/api/js?key=[GMAPS_KEY]&callback=initMap"></script>
+        <script type="text/javascript">
+            window.strings = { 'lbl.hint-count': '[lblHintCount]',
+                               'msg.data-read': '[msgDataRead]',
+                               'msg.data-zero': '[msgDataZero]'
+                              };
+        </script>

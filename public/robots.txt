@@ -1,0 +1,7 @@
+# robots.txt file for parent
+sitemap: sitemap.xml
+
+User-agent: *
+Disallow: /api/*
+Disallow: /shared/*
+Disallow: /themes/*

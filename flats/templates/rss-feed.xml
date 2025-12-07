@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>[TITLE]</title>
+        <atom:link href="[RSS_URL]" rel="self" type="application/rss+xml" />
+        <link>[LANG_HOME]</link>
+        <description>[DESCR]</description>
+        <lastBuildDate>[UPDATEDTS]</lastBuildDate>
+        <language>[LANGUAGE]</language>
+        <image>
+            <url>[IMAGE]</url>
+            <title>[TITLE]</title>
+            <link>[LANG_HOME]</link>
+        </image>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <generator>[GENERATOR]</generator>
+        [ITEMS]
+    </channel>
+</rss>

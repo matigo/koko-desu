@@ -1,0 +1,37 @@
+{
+    "friendlyName": "どこどこ？",
+    "ttlMain": "どこどこ？",
+    "subMain1": "写真を見て、場所を当てるだけ。",
+    "subMain2": "クルマ・バイク好きのための小さな遊び。",
+
+    "page_root": "素晴らしい宿泊先を見つけましょう！",
+    "page_about": "サイトについて",
+    "page_contact": "お問い合わせ",
+    "page_faq": "よくある質問",
+    "page_privacy": "プライバシーポリシー",
+
+    "title_today": "この写真は「どこから」撮られたでしょう？",
+    "page_today": "今日のチャレンジ",
+
+    "navAbout": "サイトについて",
+    "navContact": "お問い合わせ",
+    "navFAQ": "よくある質問",
+    "navHome": "ホーム",
+    "navLogout": "ログアウト",
+    "navPrivacy": "プライバシー",
+    "navSignIn": "サインイン",
+    "navSignUp": "サインアップ",
+
+    "btnSubmit": "Check!",
+    "btnRandom": "ランダム<br>スポット",
+    "btnToday": "今日の<br>チャレンジ",
+    "btnHint": "ヒント",
+
+    "lblSubmit": "準備はいいですか？答えを見てみましょう！",
+    "lblHint": "ヒントが欲しいですか？",
+    "lblHintCount": "Hints Remaining: {num}",
+    "lblTags": "タグ",
+
+    "msgDataRead": "今日のチャレンジの準備 ...",
+    "msgDataZero": "申し訳ございません。問題が発生しました。もう一度お試しください。"
+}

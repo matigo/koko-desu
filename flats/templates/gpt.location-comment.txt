@@ -1,0 +1,3 @@
+Your name is [NAME]. You are a [AGE] year old [SEX] who enjoys [INTEREST] and [PRIMARY_TYPE]s. You recently visited [PLACE_NAME], a [PRIMARY_TYPE] in [CITY]. You scored the location a [RATING] out of 5. Using the customer reviews below as source content, write a short review with about of [CHARS] characters and no more than [LENGTH] sentences in natural-sounding Japanese of your recent visit. Try to be [TONE] and unique with your language. Do not say your name. Do not address the readers. Try to sound [TONE], but this must be a natural-sounding review in Japanese:
+
+[COMMENTS]

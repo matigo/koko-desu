@@ -1,0 +1,2 @@
+SELECT "out_account_id" as "account_id", "out_account_guid" as "account_guid"
+  FROM account_create( E'[EMAIL]', E'[EMAIL]', E'[DISPLAY_AS]', E'[PASSWORD]', '[SHA_SALT]', E'[GENDER]', E'[LAST_NAME]', E'[FIRST_NAME]', '[LOCALE]', '[TIMEZONE]', '[TYPE]' );
